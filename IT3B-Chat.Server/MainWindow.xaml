@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
+        <ListBox x:Name="ChatListBox" Grid.Row="0" Margin="10" />
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="NameTextBox" Width="185" Margin="0 0 5 0" Text="" />
+            <Button Content="Přihlásit" Click="Loginthis" />
+            <TextBox x:Name="MessageTextBox" Width="500" Margin="5 0 5 0" />
+            <Button Content="Poslat" Click="SendMessage_Click" />
+        </StackPanel>
     </Grid>
 </Window>
