@@ -7,28 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-
-        <!-- UI pro připojení k serveru a výběr jména -->
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
-            <TextBlock Text="Server:" VerticalAlignment="Center"/>
-            <TextBox x:Name="ServerTextBox" Width="150" Margin="5"/>
-            <TextBlock Text="Jméno:" VerticalAlignment="Center" Margin="10,0,0,0"/>
-            <TextBox x:Name="UsernameTextBox" Width="150" Margin="5"/>
-            <Button Content="Připojit" Click="ConnectButton_Click" Margin="10,0,0,0"/>
-        </StackPanel>
-
-        <!-- UI pro zobrazení zpráv -->
-        <ListBox x:Name="ChatListBox" Grid.Row="1" Margin="10" Background="#f0f0f0"/>
-
-        <!-- UI pro odeslání zprávy -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
-            <TextBox x:Name="MessageTextBox" Width="600" Margin="0,0,10,0"/>
-            <Button Content="Odeslat" Click="SendButton_Click"/>
-        </StackPanel>
+        
     </Grid>
 </Window>

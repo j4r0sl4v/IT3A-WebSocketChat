@@ -20,5 +20,21 @@ namespace IT3B_Chat.Client
   {
    InitializeComponent();
   }
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
+}
  }
 }

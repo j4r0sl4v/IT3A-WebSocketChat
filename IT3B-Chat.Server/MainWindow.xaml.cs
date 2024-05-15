@@ -20,15 +20,5 @@ namespace IT3B_Chat.Server
   {
    InitializeComponent();
   }
-
-        private void ConnectButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void SendButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
