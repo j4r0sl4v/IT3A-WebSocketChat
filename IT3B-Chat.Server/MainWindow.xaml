@@ -15,7 +15,7 @@
         <ListBox x:Name="ChatListBox" Grid.Row="0" Margin="10" />
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
-            <TextBox x:Name="NameTextBox" Width="185" Margin="0 0 5 0" Text="" />
+            <TextBox x:Name="NameTextBox" Width="180" Margin="0 0 5 0" Text="" />
             <Button Content="Přihlásit" Click="Loginthis" />
             <TextBox x:Name="MessageTextBox" Width="500" Margin="5 0 5 0" />
             <Button Content="Poslat" Click="SendMessage_Click" />
