@@ -12,7 +12,7 @@ using System.Windows.Shapes;
 
 namespace IT3B_Chat.Server
 {
-    /// <summary>
+    /// <summary;-;>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
